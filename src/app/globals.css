@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #020617;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+.container-custom {
+  max-width: 1200px;
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+}
